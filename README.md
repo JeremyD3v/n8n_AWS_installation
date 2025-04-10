@@ -41,6 +41,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 ### Step 8: Run N8N Docker Container
+
+### Dominios gratuitos: https://my.noip.com/dynamic-dns
+
 ```bash
 sudo docker run -d --restart unless-stopped -it \
 --name n8n \
